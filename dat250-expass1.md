@@ -4,7 +4,7 @@ In this assignment I have made sure to have a working Software Development Envir
 
 JDK, and IDE and Maven was software already available, so no installation needed - but validation took place through the terminal to make sure everything looks OK. 
 
-### results from commands:
+### Results from commands:
 
 java -version -> 
 java version "1.8.0_111"
