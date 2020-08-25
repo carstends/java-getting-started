@@ -23,7 +23,16 @@ This version should be sufficient as far as I know and have read.
  
  ### Deploying Java applications on the Heroku cloud platform
  
- This process was relatively straight forward, but some issues arised at the end. 
+ This process was relatively straight forward, but some issues arised at the end. One issue I have not resolved yet is an issue with postgres due to having complications with earlier version occupying ports.
  
+ The app is connected to git and github and apart from the above mentioned problems, deployment and tutorial seems to have worked sufficiently. 
+ 
+ Screenshot from Heroku activity and build log is attatched:
+ 
+ ## Attachments
+ 
+ Heroku activity:      [here](https://github.com/h181214/java-getting-started/blob/master/Activity.md)
+ 
+ Successful build log: [here](https://github.com/h181214/java-getting-started/blob/master/build_log_1.txt)
  
 
