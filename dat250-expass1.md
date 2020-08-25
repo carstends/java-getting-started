@@ -27,7 +27,7 @@ This version should be sufficient as far as I know and have read.
  
  The app is connected to git and github and apart from the above mentioned problems, deployment and tutorial seems to have worked sufficiently. 
  
- Screenshot from Heroku activity and build log is attatched:
+ Screenshot from Heroku activity and build log is attatched.
  
  ## Attachments
  
