@@ -1,1 +1,54 @@
-
+-----> Java app detected
+-----> Installing JDK 1.8... done
+-----> Installing Maven 3.6.2... done
+-----> Executing Maven
+       $ mvn -DskipTests clean dependency:list install
+       [INFO] Scanning for projects...
+       [INFO] 
+       [INFO] ------------------< com.example:java-getting-started >------------------
+       [INFO] Building java-getting-started 1.0
+       [INFO] --------------------------------[ jar ]---------------------------------
+       [INFO] 
+       [INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ java-getting-started ---
+       [INFO] 
+       [INFO] --- maven-dependency-plugin:3.1.2:list (default-cli) @ java-getting-started ---
+       [INFO] 
+       [INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ java-getting-started ---
+       [INFO] Using 'UTF-8' encoding to copy filtered resources.
+       [INFO] skip non existing resourceDirectory /tmp/build_21bdedd0_/src/main/resources
+       [INFO] skip non existing resourceDirectory /tmp/build_21bdedd0_/src/main/resources
+       [INFO] 
+       [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ java-getting-started ---
+       [INFO] No sources to compile
+       [INFO] 
+       [INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ java-getting-started ---
+       [INFO] Using 'UTF-8' encoding to copy filtered resources.
+       [INFO] skip non existing resourceDirectory /tmp/build_21bdedd0_/src/test/resources
+       [INFO] 
+       [INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ java-getting-started ---
+       [INFO] No sources to compile
+       [INFO] 
+       [INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ java-getting-started ---
+       [INFO] Tests are skipped.
+       [INFO] 
+       [INFO] --- maven-jar-plugin:3.2.0:jar (default-jar) @ java-getting-started ---
+       [WARNING] JAR will be empty - no content was marked for inclusion!
+       [INFO] Building jar: /tmp/build_21bdedd0_/target/java-getting-started-1.0.jar
+       [INFO] 
+       [INFO] --- maven-install-plugin:2.5.2:install (default-install) @ java-getting-started ---
+       [INFO] Installing /tmp/build_21bdedd0_/target/java-getting-started-1.0.jar to /tmp/codon/tmp/cache/.m2/repository/com/example/java-getting-started/1.0/java-getting-started-1.0.jar
+       [INFO] Installing /tmp/build_21bdedd0_/pom.xml to /tmp/codon/tmp/cache/.m2/repository/com/example/java-getting-started/1.0/java-getting-started-1.0.pom
+       [INFO] ------------------------------------------------------------------------
+       [INFO] BUILD SUCCESS
+       [INFO] ------------------------------------------------------------------------
+       [INFO] Total time:  3.810 s
+       [INFO] Finished at: 2020-08-25T20:49:44Z
+       [INFO] ------------------------------------------------------------------------
+-----> Discovering process types
+       Procfile declares types     -> (none)
+       Default types for buildpack -> web
+-----> Compressing...
+       Done: 50.9M
+-----> Launching...
+       Released v13
+       https://stark-mesa-54878.herokuapp.com/ deployed to Heroku
