@@ -1,6 +1,6 @@
 # Software Technology Experiment Assignment 1
 
-In this assignment I have made sure to have a working Software Development Environment installed. This has also been validated, although some issues have been encountered. 
+In this assignment I have made sure to have a working Software Development Environment installed. This has also been validated.
 
 JDK, and IDE and Maven was software already available, so no installation needed - but validation took place through the terminal to make sure everything looks OK. 
 
